@@ -9,6 +9,6 @@ const numberOfVowels = str => {
   }
 
   return cntr;
-}
+};
 
 console.log(numberOfVowels('vowel'));
