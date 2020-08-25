@@ -1,5 +1,4 @@
 const PI = 3.14159;
-
 const sphereVolume = rad => {
   return 4 / 3 * PI * Math.pow(rad, 3);
 }
@@ -9,9 +8,7 @@ const coneVolume = (rad, height) => {
 const prismVolume = (height, width, depth) => {
   return height * width * depth;
 }
-
 const totalVolume = solids => {
-
   let vol = 0;
   for(let a of solids){
     if(a.type === 'sphere')
@@ -22,7 +19,6 @@ const totalVolume = solids => {
       vol += prismVolume(a.height, a.width, a.depth);    
   }
   return vol;
-
 }
 
 const largeSphere = {

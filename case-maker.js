@@ -1,9 +1,5 @@
 const camelCase = function(str) {
   var copy = [];
-  for(let i = 0; i < str.length; i++){
-    if(str[i] === ' ');
-      spaces.push(i);
-  }
   for(i = 0; i < str.length; i++){
     if(str[i] === ' '){
       i++;
